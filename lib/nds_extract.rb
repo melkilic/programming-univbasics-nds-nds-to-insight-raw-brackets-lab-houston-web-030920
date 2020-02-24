@@ -1,5 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'directors_database
+require 'directors_database'
+require 'pry'
 
 
 def directors_totals(nds)
